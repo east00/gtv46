@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GTV46 · David</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #0c0e12;
+    color: #e6e8eb;
+    font-family: -apple-system, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    line-height: 1.7;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 72px 24px 48px; }
+  header { margin-bottom: 56px; }
+  h1 {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 56px;
+    letter-spacing: 4px;
+    color: #7dd87d;
+  }
+  .sub { margin-top: 8px; font-size: 18px; color: #9aa3ad; }
+  .sub b { color: #e6e8eb; }
+  h2 {
+    font-size: 15px;
+    letter-spacing: 3px;
+    color: #7dd87d;
+    border-bottom: 1px solid #23272f;
+    padding-bottom: 8px;
+    margin: 48px 0 20px;
+  }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 560px) { .grid { grid-template-columns: 1fr; } h1 { font-size: 44px; } }
+  .card {
+    background: #15181f;
+    border: 1px solid #23272f;
+    border-radius: 12px;
+    padding: 20px;
+  }
+  .card h3 { font-size: 17px; margin-bottom: 6px; }
+  .card p { font-size: 14px; color: #9aa3ad; }
+  .tag {
+    display: inline-block;
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: 20px;
+    margin-top: 12px;
+  }
+  .tag.dev { color: #e8c15a; border: 1px solid #e8c15a; }
+  .tag.done { color: #7dd87d; border: 1px solid #7dd87d; }
+  .tag.live { color: #6cb6ff; border: 1px solid #6cb6ff; }
+  a { color: #7dd87d; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .links a {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 15px;
+  }
+  footer {
+    margin-top: 64px;
+    padding-top: 20px;
+    border-top: 1px solid #23272f;
+    font-size: 13px;
+    color: #6b7280;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>GTV46</h1>
+    <p class="sub"><b>David</b> · 做梦吗的工作室 · 独立游戏开发者</p>
+  </header>
+
+  <h2>游戏</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>跳跳乐</h3>
+      <p>蓄力跳跃爬塔小游戏，TapTap H5。</p>
+      <span class="tag dev">开发中</span>
+    </div>
+    <div class="card">
+      <h3>巨树攀途</h3>
+      <p>12 关树根攀爬跳跃，爬上参天巨树。</p>
+      <span class="tag dev">开发中</span>
+    </div>
+    <div class="card">
+      <h3>夜市摆摊王</h3>
+      <p>30 天夜市摆摊经营，进货、定价、攒人气。</p>
+      <span class="tag done">已完成</span>
+    </div>
+    <div class="card">
+      <h3>星尘防线 · Neon Starline</h3>
+      <p>竖屏太空射击，守住灯舰。</p>
+      <span class="tag done">已完成</span>
+    </div>
+    <div class="card">
+      <h3>Tombs Survivor</h3>
+      <p>地牢幸存者，Unity WebGL 改编。</p>
+      <span class="tag dev">改编中</span>
+    </div>
+  </div>
+
+  <h2>项目</h2>
+  <div class="grid">
+    <div class="card">
+      <h3><a href="https://east00.github.io/PerkRadar/" target="_blank" rel="noopener">PerkRadar 羊毛看板</a></h3>
+      <p>优惠聚合看板，每 2 小时自动更新。</p>
+      <span class="tag live">已上线</span>
+    </div>
+  </div>
+
+  <h2>链接</h2>
+  <p class="links">
+    <a href="https://github.com/east00" target="_blank" rel="noopener">GitHub · east00</a>
+  </p>
+
+  <footer>© 2026 David · gtv46.loc.cc</footer>
+</div>
+</body>
+</html>
